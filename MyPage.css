@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-box {
+  padding: 1%;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 80%;
+  background-color: rgb(240, 240, 240);
+}
+
+.img {
+  width: 15%;
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 100%;
+  margin-right: 5%;
+}
+
+.information {
+  width: 100%;
+}
+
+.homepage-button {
+  display: flex;
+  position: relative;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.edit-button {
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.main-box {
+  width: 80%;
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  height: 50%;
+}
+
+.sidebar-menulist {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+
+.sidebar-menu {
+  display: flex;
+  border-radius: 15px;
+  background-color: white;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.myPageList {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.myPageList-box {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5%;
+  background-color: rgb(240, 240, 240);
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  margin-bottom: 5%;
+  font-size: 0.7rem;
+}
+
+.introduction-content {
+  margin-top: 3%;
+  margin-left: 4%;
+  width: 90%;
+  height: 80%;
+  background-color: white;
+}
+
+.holding-technology {
+  font-size: 0.7rem;
+  height: 10%;
+  margin-bottom: 5%;
+}
+
+.holding-technology-list {
+  margin-top: 3%;
+  display: flex;
+  height: 60%;
+  justify-content: space-around;
+}
+
+.tech {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.attachment {
+  height: 20%;
+  font-size: 0.7rem;
+}
+
+.attachment > span {
+  font-size: 0.35rem;
+}
+
+.attachment-list {
+  display: flex;
+  height: 90%;
+  justify-content: space-evenly;
+}
+
+.attachment-box {
+  background-color: white;
+  border-radius: 15px;
+  width: 30%;
+}
