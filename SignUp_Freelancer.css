@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+input {
+  border: 1px solid #333;
+  border-radius: 2px;
+  padding: 0.2rem;
+}
+.header {
+  height: 70px;
+  background-color: pink;
+}
+.signupbox {
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.red-word {
+  color: red;
+}
+.text-box {
+  width: 100%;
+  padding: 10px;
+}
+p {
+  margin: 0;
+}
+.company_info {
+  display: flex;
+}
+.text-box > input {
+  width: 100%;
+}
+.com_addr {
+  width: 100%;
+  padding: 10px;
+}
+.com_div > input {
+  width: 49%;
+}
+.btn-box {
+  padding: 10px;
+  width: 100%;
+}
+.btn-box > div {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.btn-box > div > input {
+  width: 100%;
+}
+.btn-box > div > button {
+  width: 50%;
+}
+.check_box {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 1rem;
+}
+.check_box > div {
+  display: flex;
+}
+.signupbtn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 10px;
+  background-color: #4758ee;
+  border-radius: 0.5rem;
+  color: white;
+}
+.select_box > select {
+  width: 49%;
+}
