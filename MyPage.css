@@ -10,10 +10,10 @@
 .profile-box {
   padding: 1%;
   display: flex;
-  border: 1px solid black;
   border-radius: 15px;
   width: 80%;
   background-color: rgb(240, 240, 240);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .img {
@@ -55,50 +55,46 @@ main {
 
 .sidebar {
   width: 20%;
-  height: 50%;
 }
 
 .sidebar-menulist {
-  border: 1px solid black;
   border-radius: 15px;
   padding: 5%;
   background-color: rgb(240, 240, 240);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100%;
   align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar-menu {
   display: flex;
   border-radius: 15px;
   background-color: white;
-  height: 10%;
   justify-content: center;
   align-items: center;
   width: 90%;
+  margin-top: 10px;
 }
 
 .myPageList {
   display: flex;
   width: 80%;
   justify-content: flex-end;
-  height: 100%;
 }
 
 .myPageList-box {
   width: 90%;
-  border: 1px solid black;
   border-radius: 15px;
   padding: 5%;
   background-color: rgb(240, 240, 240);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .introduction {
   display: flex;
   flex-direction: column;
-  height: 20%;
   margin-bottom: 5%;
   font-size: 0.7rem;
 }
@@ -107,20 +103,18 @@ main {
   margin-top: 3%;
   margin-left: 4%;
   width: 90%;
-  height: 80%;
   background-color: white;
+  height: 100px;
 }
 
 .holding-technology {
   font-size: 0.7rem;
-  height: 10%;
   margin-bottom: 5%;
 }
 
 .holding-technology-list {
-  margin-top: 3%;
+  padding-top: 3%;
   display: flex;
-  height: 60%;
   justify-content: space-around;
 }
 
@@ -132,10 +126,10 @@ main {
   justify-content: center;
   align-items: center;
   width: 15%;
+  height: 30px;
 }
 
 .attachment {
-  height: 20%;
   font-size: 0.7rem;
 }
 
@@ -145,7 +139,6 @@ main {
 
 .attachment-list {
   display: flex;
-  height: 90%;
   justify-content: space-evenly;
 }
 
@@ -153,4 +146,44 @@ main {
   background-color: white;
   border-radius: 15px;
   width: 30%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.review-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
+
+.review {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 100px;
+  align-items: center;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  padding: 1%;
+}
+
+.review-image {
+  border-radius: 100%;
+  background-color: palevioletred;
+  width: 10%;
+  height: 5vh;
+}
+
+.report {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+.more-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
 }
