@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.content-box {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.rating {
+  display: flex;
+}
+.star {
+  display: flex;
+  font-size: 30px;
+  color: gold;
+}
+.import-space {
+  height: 200px;
+  width: 500px;
+  background-color: aliceblue;
+}
+.comment-space {
+  height: 200px;
+  width: 500px;
+}
