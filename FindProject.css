@@ -63,6 +63,17 @@ main {
   border-radius: 5px;
 }
 
+.array {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.array-list {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
 .project-card {
   background-color: #ffffff;
   padding: 20px;
@@ -102,10 +113,21 @@ main {
 .button-box {
   display: flex;
   align-items: center;
+  width: 20%;
 }
 
 .estimated-amount {
   display: flex;
   width: 20%;
   justify-content: space-between;
+}
+
+.apply {
+  padding: 0.5rem 1rem;
+  background-color: #4758ee;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 100%;
 }
