@@ -9,9 +9,9 @@
     <div class="content-box">
       <div class="title">게시글 작성</div>
       <div class="function-line">
-        <input type="button" value="삭제" />
-        <input type="button" value="임시저장" />
-        <input type="button" value="등록" />
+        <button>삭제</button>
+        <button>임시저장</button>
+        <button>등록</button>
       </div>
       <div class="post-writing-box">
         <div class="subject-line">
@@ -22,7 +22,12 @@
           </select>
           <input value="제목작성" />
         </div>
-        <input class="writing-place" value="본문 작성" />
+
+        <div
+          contenteditable="true"
+          class="writing-place"
+          placeholder="본문 작성"
+        ></div>
       </div>
       <div class="function-line">
         <input type="button" value="첨부파일" />
