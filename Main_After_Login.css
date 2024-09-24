@@ -1,0 +1,46 @@
+.reg {
+  width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 15rem 0;
+
+  align-items: center;
+}
+
+.reg-title-ment {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.reg-small-ment {
+  color: gray;
+  padding: 1rem;
+}
+
+.reg-btn {
+  background-color: #4758ee;
+  border-radius: 15px;
+  border: 1px solid #4758ee;
+  width: 15rem;
+  color: white;
+  height: 4rem;
+  box-shadow: 2px 2px 5px rgb(42, 55, 228);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.reg-btn:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 0.3s;
+}
+
+.reg-btn-area {
+  padding: 1rem;
+}
+
+.reg-btn:hover {
+  background-color: #263aed;
+}
