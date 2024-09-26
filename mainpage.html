@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>메인화면</title>
+    <script></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./mainPage.js"></script>
+    <link rel="stylesheet" href="./mainPage.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <a href=""><img src="./teamLogo.svg" alt="logo" /></a>
+      </div>
+      <div class="header-btn">
+        <div><button class="login" id="loginBtn">로그인</button></div>
+        <div><button class="sign-up">회원가입</button></div>
+      </div>
+    </div>
+    <div class="border-line"></div>
+
+    <div class="container">
+      <div class="first-section">
+        <div class="reg">
+          <div class="reg-ment">
+            <p class="reg-title-ment">프로젝트 등록하기</p>
+            <h4 class="reg-small-ment">
+              지금 프로젝트를 등록해서 나에게 필요한 전문가를 찾아보세요.
+            </h4>
+            <div class="reg-btn-area">
+              <button class="reg-btn">프로젝트 등록하기</button>
+            </div>
+          </div>
+          <div><img src="./Illustration.svg" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="second-section">
+      <div class="second-section-box">
+        <p class="second-section-title">
+          BizMatch에서 아웃소싱 고민을 해결해보세요!
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-text">
+              <h3>맞춤형 전문가와 매칭</h3>
+            </div>
+            <div class="card-img">
+              <img src="./second-section1.svg" alt="" />
+            </div>
+            <div class="card-caption">
+              <p>업종과 프로젝트에 맞는</p>
+              <p>전문가 신속 연결</p>
+              <p>필요한 서비스와</p>
+              <p>맞춤형 지원 제공</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h3>기업 맞춤형 지원</h3>
+            </div>
+            <div class="card-img">
+              <img src="./second-section2.svg" alt="" />
+            </div>
+            <div class="card-caption">
+              <p>기업 특정 요구에 맞춘</p>
+              <p>다양한 아웃소싱 솔루션</p>
+              <p>효율적인 업무 처리 가능</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h3>실시간 프로젝트 관리</h3>
+            </div>
+            <div class="card-img">
+              <img src="./second-section3.svg" alt="" />
+            </div>
+            <div class="card-caption">
+              <p>프로젝트 진행 상황</p>
+              <p>한눈에 확인</p>
+              <p>필요한 변경 사항 즉시 반영</p>
+              <p>실시간 관리 시스템 제공</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h3>안전한 거래 및 결제 시스템</h3>
+            </div>
+            <div class="card-caption">
+              <p>철저한 보안</p>
+              <p>신뢰성 있는 결제 시스템</p>
+              <p>안전한 거래 환경 보장</p>
+            </div>
+            <div class="card-img">
+              <img src="./second-section4.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third-section">
+      <div class="third-section-box">
+        <p class="third-section-title">왜 BizMatch 인가요?</p>
+        <div class="third-section-cards">
+          <div class="third-section-card">
+            <div class="third-section-card-header">
+              <p class="third-section-card-header-title1">시간 절약</p>
+            </div>
+            <div class="third-section-card-body">
+              <p>전문가 탐색 시간 단축</p>
+              <p>빠르게 프로젝트 시작</p>
+            </div>
+          </div>
+          <div class="third-section-card">
+            <div class="third-section-card-header">
+              <p class="third-section-card-header-title2">
+                신뢰할 수 있는 네트워크
+              </p>
+            </div>
+            <div class="third-section-card-body">
+              <p>다양한 산업군 인증된 전문가</p>
+              <p>안정적인 거래</p>
+            </div>
+          </div>
+          <div class="third-section-card">
+            <div class="third-section-card-header">
+              <p class="third-section-card-header-title3">유연한 가격 책정</p>
+            </div>
+            <div class="third-section-card-body">
+              <p>예산에 맞는 합리적인 가격</p>
+              <p>최상의 결과 도출</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fourth-section">
+      <div class="fourth-section-container">
+        <p class="fourth-section-title">자주 묻는 질문</p>
+      </div>
+      <div class="fourth-section-box">
+        <div class="fourth-section-box1">
+          <span class="fourth-section-text">
+            1. 플랫폼에서 제공하는 서비스는 어떤 것인가요?
+          </span>
+        </div>
+        <div class="fourth-section-box2"></div>
+        <div class="fourth-section-box1">
+          <span class="fourth-section-text">
+            2. 프로젝트 등록 후 어떻게 지원 기업을 선택하나요?
+          </span>
+        </div>
+        <div class="fourth-section-box2"></div>
+        <div class="fourth-section-box1">
+          <span class="fourth-section-text">3. 결제는 어떻게 진행되나요?</span>
+        </div>
+        <div class="fourth-section-box2"></div>
+        <div class="fourth-section-box1">
+          <span class="fourth-section-text">
+            4. 분쟁이 발생했을 때 어떻게 해결되나요?
+          </span>
+        </div>
+        <div class="fourth-section-box-qna-area">
+          <a href="" class="fourth-section-box-qna">질문 모두 보기 ></a>
+        </div>
+      </div>
+    </div>
+    <div class="fifth-section">
+      <div class="fifth-section-container">
+        <div class="fifth-section-title">
+          <p>지금 바로 등록하여</p>
+          <p>비즈니스의 새로운 기회를 만나보세요!</p>
+        </div>
+        <div class="fifth-section-btn-area">
+          <button class="fifth-section-btn">프로젝트 등록하기</button>
+        </div>
+      </div>
+      <div class="pageup-btn-area">
+        <img src="./pageupbtn.svg" alt="" class="pageup-btn" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-side">
+          <div>
+            <div>
+              <p>© 2024 BizMatch.</p>
+              <p>All rights reserved</p>
+            </div>
+            <div class="footer-side-text"></div>
+            <div>
+              <img src="Social Links.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-center">
+          <div class="footer-center-box">
+            <div class="footer-center-box-title"><h2>사이트 링크</h2></div>
+            <a href="">홈</a>
+            <a href="">서비스 소개</a>
+            <a href="">자주 묻는 질문</a>
+            <a href="">프로젝트 등록</a>
+          </div>
+          <div class="footer-center-box">
+            <div class="footer-center-box-title"><h2>정책 및 약관</h2></div>
+            <a href="">이용 약관</a>
+            <a href="">개인정보 처리방침</a>
+            <a href="">결제 및 환불 정책</a>
+            <a href="">분쟁 해결 정책</a>
+          </div>
+          <div class="footer-center-box">
+            <div class="footer-center-box-title"><h2>사용자 가이드</h2></div>
+            <a href="">공지사항</a>
+            <a href="">프로젝트 등록 방법</a>
+            <a href="">프로젝트 참여 방법</a>
+            <a href="">이용요금</a>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <div class="login-modal" id="login-modal">
+      <div class="login-modal-container">
+        <span class="modal-close-btn" id="modal-close-btn">x</span>
+        <div class="login-modal-img-area">
+          <img src="./teamLogo.svg" alt="" />
+        </div>
+        <div class="login-modal-btns">
+          <div class="signin_box">
+            <div class="same_box">
+              <input
+                type="text"
+                placeholder="이메일을 입력하세요"
+                id="login-input-email"
+              />
+            </div>
+            <div class="same_box">
+              <input
+                type="text"
+                placeholder="비밀번호를 입력하세요"
+                id="login-input-pwd"
+              />
+            </div>
+            <div class="same_box">
+              <button class="signin_button">로그인</button>
+            </div>
+            <div class="same_box"><button>Sign up with Google</button></div>
+          </div>
+        </div>
+        <ul class="account-menu">
+          <li class="account-menu-text">아이디 찾기</li>
+          <li>/</li>
+          <li class="account-menu-text">비밀번호 찾기</li>
+          <li>/</li>
+          <li class="account-menu-text">회원가입</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
