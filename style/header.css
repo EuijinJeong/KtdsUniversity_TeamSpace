@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding-right: 16rem;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.45rem;
+  font-weight: 700;
+  /* padding: 2.8rem 0; */
+  position: relative;
+}
+
+.header-menu a:hover {
+  color: black;
+}
+
+.header-menu a::after {
+  position: absolute;
+  content: "";
+  background-color: black;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  transition: width 0.3s;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
+.header-btn {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.border-line {
+  border-top: 2px solid rgb(206, 206, 206);
+  padding-bottom: 3rem;
+}

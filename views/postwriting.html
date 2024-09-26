@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>글쓰기</title>
+    <link rel="stylesheet" type="text/css" href="../sytle/postwriting.css" />
+  </head>
+  <body>
+    <div class="content-box">
+      <div>header</div>
+      <h2 class="title">게시글 작성</h2>
+      <div class="function-line">
+        <button>
+          <img src="./delete.png" />
+          <div>삭제</div>
+        </button>
+        <button>
+          <img id="save" src="./Save.png" />
+          <div>임시저장</div>
+        </button>
+        <button>
+          <img src="./upload.png" />
+          <div>등록</div>
+        </button>
+      </div>
+      <div class="post-writing-box">
+        <select id="genre" name="genreSection">
+          <option value="alram">공지</option>
+          <option value="qeustion">문의</option>
+          <option value="report">신고</option>
+        </select>
+
+        <input
+          type="text"
+          placeholder="제목을 입력해주세요"
+          id="title"
+          class="empty"
+        />
+
+        <textarea
+          contenteditable="true"
+          class="writing-place"
+          placeholder="본문 작성"
+        ></textarea>
+      </div>
+      <div class="function-line">
+        <button>
+          <img src="./attach_file.png" />
+          <div>첨부파일</div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
