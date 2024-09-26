@@ -1,4 +1,4 @@
-body {
+.project-register-page {
   display: flex;
   justify-content: center;
 }
@@ -116,6 +116,7 @@ body {
 }
 
 .project-contents-input {
+  /* display: flex; */
   width: 48rem;
   height: 20rem;
   padding: 0.4rem;
