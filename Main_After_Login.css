@@ -163,6 +163,11 @@
   font-size: 1.5rem;
 }
 
+.half-sidebar {
+  height: 2vh;
+  border-right: 2px solid lightgray;
+}
+
 .apply {
   padding: 0.5rem 1rem;
   background-color: #4758ee;
@@ -172,4 +177,65 @@
   cursor: pointer;
   width: 100%;
   font-size: 1.5rem;
+}
+
+@media (max-width: 1300px) {
+  .project-head-front {
+    width: 50%;
+  }
+
+  .status {
+    font-size: 1rem;
+  }
+}
+
+.bold {
+  font-size: 1rem;
+}
+
+.estimated-amount {
+  font-size: 1rem;
+}
+
+.apply {
+  font-size: 1rem;
+}
+
+.project-body-box {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+  .option {
+    font-size: 0.7rem;
+  }
+
+  .project-body-box {
+    font-size: 0.6rem;
+  }
+
+  .circle {
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+
+  .estimated-amount {
+    font-size: 0.6rem;
+  }
+
+  .sidebar {
+    height: 3vh;
+  }
+
+  .half-sidebar {
+    height: 1vh;
+  }
+
+  .bold {
+    font-size: 0.8rem;
+  }
+
+  .project-head-front > h2 {
+    font-size: 1rem;
+  }
 }
