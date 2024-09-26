@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  padding: 20px;
+  padding: 1.4rem;
 }
 
 .h1-box {
@@ -16,7 +16,7 @@ main {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 1.4rem;
   width: 70%;
 }
 
@@ -29,14 +29,14 @@ h1 {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid lightgray;
-  height: 60px;
+  height: 4.5rem;
   width: 70%;
 }
 
 .category-list {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
+  width: 65%;
   border-top: 1px solid lightgray;
   height: 100%;
 }
@@ -44,21 +44,27 @@ h1 {
 .category-list div {
   display: flex;
   align-items: center;
-  list-style: none;
   height: 100%;
 }
 
-.category-list div:hover {
-  border-bottom: 2px solid black;
+.level-category-area {
+  width: 50%;
 }
 
-.category-list div a {
-  text-decoration: none;
-  color: #000;
+.level-category {
+  width: 50%;
+  margin-left: 1rem;
+  padding: 0.4rem;
+  border: solid 1px #dde2e4;
+  background-color: #fff;
 }
 
-.category-list div a:hover {
-  font-weight: bolder;
+.search-input {
+  padding: 0.4rem;
+  border: solid 1px #dde2e4;
+  background-color: #fff;
+  outline: none;
+  width: 100%;
 }
 
 .search {
@@ -94,6 +100,7 @@ h1 {
   width: 30%;
   cursor: pointer;
   color: gray;
+  align-items: center;
 }
 
 .selected {
@@ -206,6 +213,11 @@ h1 {
   font-size: 1.5rem;
 }
 
+.half-sidebar {
+  height: 2vh;
+  border-right: 2px solid lightgray;
+}
+
 .apply {
   padding: 0.5rem 1rem;
   background-color: #4758ee;
@@ -215,4 +227,68 @@ h1 {
   cursor: pointer;
   width: 100%;
   font-size: 1.5rem;
+}
+
+@media (max-width: 1300px) {
+  .project-head-front {
+    width: 50%;
+  }
+
+  .status {
+    font-size: 1rem;
+  }
+}
+
+.bold {
+  font-size: 1rem;
+}
+
+.estimated-amount {
+  font-size: 1rem;
+}
+
+.apply {
+  font-size: 1rem;
+}
+
+.project-body-box {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+  .option {
+    font-size: 0.7rem;
+  }
+
+  .project-body-box {
+    font-size: 0.6rem;
+  }
+
+  .circle {
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+
+  .estimated-amount {
+    font-size: 0.6rem;
+  }
+
+  .sidebar {
+    height: 3vh;
+  }
+
+  .half-sidebar {
+    height: 1vh;
+  }
+
+  .bold {
+    font-size: 0.8rem;
+  }
+
+  .project-head-front > h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
 }
