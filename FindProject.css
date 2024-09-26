@@ -260,6 +260,10 @@ h1 {
     font-size: 0.7rem;
   }
 
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+
   .project-body-box {
     font-size: 0.6rem;
   }
@@ -291,4 +295,53 @@ h1 {
 }
 
 @media (max-width: 768px) {
+  .search-menu {
+    flex-direction: column;
+  }
+
+  .project-category {
+    display: flex;
+  }
+
+  .option {
+    font-size: 0.4rem;
+  }
+
+  .level-category {
+    margin-left: 0;
+    font-size: 0.2rem;
+  }
+
+  .project-body-box {
+    font-size: 0.3rem;
+  }
+
+  .circle {
+    width: 0.1rem;
+    height: 0.1rem;
+  }
+
+  .estimated-amount {
+    font-size: 0.3rem;
+  }
+
+  .sidebar {
+    height: 1vh;
+  }
+
+  .half-sidebar {
+    height: 0.5vh;
+  }
+
+  .bold {
+    font-size: 0.4rem;
+  }
+
+  .project-head-front > h2 {
+    font-size: 0.5rem;
+  }
+
+  input::placeholder {
+    font-size: 0.2rem;
+  }
 }
