@@ -1,0 +1,65 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-box-border {
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.sign-up-box {
+  /* width: 100%; */
+}
+
+.red-word {
+  color: red;
+}
+
+.user-name-box,
+.email-box {
+  margin-top: 2rem;
+}
+
+.user-name-box > input {
+  width: 80%;
+}
+
+.btn-area {
+  display: flex;
+}
+
+.btn-area > input {
+  width: 70%;
+}
+
+.btn-area > button {
+  /* width: 20%; */
+  margin-left: 2rem;
+}
+.text-box > input {
+  width: 80%;
+}
+
+.select-box {
+  display: flex;
+}
+
+.select-area {
+  display: flex;
+}
+
+input {
+  margin-left: 1rem;
+  padding: 0.4rem;
+  border: solid 1px #dde2e4;
+  background-color: #fff;
+  outline: none;
+}
