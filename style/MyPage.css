@@ -66,10 +66,10 @@
   padding: 1%;
   display: flex;
   border-radius: 1rem;
-  width: 80%;
+  width: 70%;
   background-color: rgb(240, 240, 240);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .img {
@@ -112,7 +112,7 @@ main {
 }
 
 .main-box {
-  width: 80%;
+  width: 70%;
   display: flex;
 }
 
@@ -129,20 +129,21 @@ main {
   justify-content: space-evenly;
   align-items: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
-  height: 45%;
+  height: 35%;
 }
 
 .sidebar-menu {
   display: flex;
-  border-radius: 15px;
+  border-radius: 1rem;
   background-color: white;
   justify-content: center;
   align-items: center;
   width: 90%;
   height: 10%;
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 1%;
+  font-weight: bold;
 }
 
 .myPageList {
@@ -163,8 +164,8 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 5%;
-  font-size: 0.7rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .introduction-content {
@@ -176,8 +177,9 @@ main {
 }
 
 .holding-technology {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 5%;
+  font-weight: bold;
 }
 
 .holding-technology-list {
@@ -197,11 +199,12 @@ main {
 }
 
 .attachment {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .attachment > span {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .attachment-list {
@@ -213,16 +216,17 @@ main {
 .attachment-box {
   background-color: white;
   border-radius: 1rem;
-  width: 30%;
-  height: 30vh;
+  width: 25%;
+  height: 20vh;
   margin-top: 1rem;
 }
 
 .review-title {
   display: flex;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: 1rem;
+  font-weight: bold;
 }
 
 .review {
@@ -231,7 +235,7 @@ main {
   background-color: white;
   border-radius: 1rem;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   margin-top: 1rem;
   padding: 1%;
 }

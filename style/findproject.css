@@ -58,7 +58,6 @@ body {
 
 .border-line {
   border-top: 2px solid rgb(206, 206, 206);
-  padding-bottom: 5rem;
 }
 
 main {
@@ -284,30 +283,36 @@ h1 {
   font-size: 1.5rem;
 }
 
+@media (max-width: 1600px) {
+  .project-head-front {
+    width: 60%;
+  }
+}
+
 @media (max-width: 1300px) {
   .project-head-front {
-    width: 50%;
+    width: 60%;
   }
 
   .status {
     font-size: 1rem;
   }
-}
 
-.bold {
-  font-size: 1rem;
-}
+  .bold {
+    font-size: 1rem;
+  }
 
-.estimated-amount {
-  font-size: 1rem;
-}
+  .estimated-amount {
+    font-size: 1rem;
+  }
 
-.apply {
-  font-size: 1rem;
-}
+  .apply {
+    font-size: 1rem;
+  }
 
-.project-body-box {
-  font-size: 0.8rem;
+  .project-body-box {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 1024px) {

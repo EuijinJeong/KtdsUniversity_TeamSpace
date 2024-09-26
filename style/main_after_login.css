@@ -150,7 +150,7 @@
 .project-head-front {
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 50%;
   justify-content: space-between;
 }
 
@@ -242,22 +242,26 @@
   .status {
     font-size: 1rem;
   }
-}
 
-.bold {
-  font-size: 1rem;
-}
+  h2 {
+    font-size: 1rem;
+  }
 
-.estimated-amount {
-  font-size: 1rem;
-}
+  .bold {
+    font-size: 1rem;
+  }
 
-.apply {
-  font-size: 1rem;
-}
+  .estimated-amount {
+    font-size: 1rem;
+  }
 
-.project-body-box {
-  font-size: 0.8rem;
+  .apply {
+    font-size: 1rem;
+  }
+
+  .project-body-box {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 1024px) {
