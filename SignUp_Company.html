@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기업회원가입</title>
+    <link rel="stylesheet" type="text/css" href="./SignUp_Company.css" />
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="sign-up-box-border">
+      <div class="sign-up-box">
+        <p class="red-word">*은 필수입력사항입니다.</p>
+        <div class="user-name-box">
+          <p><span class="red-word">*</span>이용자명</p>
+          <input type="text" placeholder="성함을 입력해주세요" />
+        </div>
+
+        <div class="btn-box">
+          <p><span class="red-word">*</span>이메일주소</p>
+          <div class="btn-area">
+            <input type="text" placeholder="업무용 이메일 사용을 권장합니다" />
+            <button>이메일 주소 인증</button>
+          </div>
+        </div>
+        <div class="btn-box">
+          <p><span class="red-word">*</span>사업자 번호</p>
+          <div class="btn-area">
+            <input type="text" placeholder="사업자 번호를 입력햊세요" /><button>
+              사업자 번호 확인
+            </button>
+          </div>
+        </div>
+        <div class="text-box">
+          <p><span class="red-word">*</span>직원 수</p>
+          <input type="number" />
+        </div>
+        <div class="btn-box">
+          <p><span class="red-word">*</span>이용자 전화번호</p>
+          <div class="btn-area">
+            <input type="text" /> <button>전화번호 인증</button>
+          </div>
+        </div>
+        <div class="text-box">
+          <p><span class="red-word">*</span>기업명</p>
+          <input type="text" placeholder="기업명 입력" />
+        </div>
+        <div class="com_addr">
+          <p><span class="red-word">*</span>기업주소</p>
+          <div class="com_div">
+            <input type="text" placeholder="우편번호 입력" />
+            <button>도로명 주소 찾기</button>
+          </div>
+          <div class="com_div">
+            <input type="text" placeholder="도로명 주소 입력" />
+            <input type="text" placeholder="상세주소 입력" />
+          </div>
+        </div>
+        <div class="text-box">
+          <p><span class="red-word">*</span>기업 전화번호</p>
+          <input type="text" placeholder="02-000-0000" />
+        </div>
+
+        <div class="btn-box">
+          <p><span class="red-word">*</span>이용자 첨부파일</p>
+          <div class="btn-area">
+            <input type="text" /> <button>첨부자료 업로드</button>
+          </div>
+        </div>
+        <div class="text-box">
+          <p><span class="red-word">*</span>회사 사이트 주소</p>
+          <input type="text" />
+        </div>
+        <div class="text-box">
+          <p><span class="red-word">*</span>주요 산업분야</p>
+        </div>
+        <div class="select-box">
+          <div class="select-area">
+            <select name="level-category" class="level-category">
+              <option value="0">대분류</option>
+              <option value="1">IT 컨설팅과 기타 서비스</option>
+              <option value="2">데이터 처리와 아웃소싱 서비스</option>
+              <option value="3">인터넷 서비스와 인프라</option>
+              <option value="4">애플리케이션 소프트웨어</option>
+              <option value="5">시스템 소프트웨어</option>
+              <option value="6">게임 소프트웨어</option>
+              <option value="7">디자인 및 미디어</option>
+              <option value="8">카탈로그 소매 및 인터넷 소매</option>
+              <option value="9">마케팅 및 광고 서비스</option>
+              <option value="10">번역 및 통역 서비스</option>
+              <option value="11">헬스케어 및 의료 솔루션</option>
+              <option value="12">교육 및 학습 서비스</option>
+            </select>
+            <form action="/search">
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Search Categories"
+              />
+            </form>
+          </div>
+          <div class="select_box">
+            <div class="select-area">
+              <select name="level-category" class="level-category">
+                <option value="0">중분류</option>
+                <option value="1">기술 자문 및 전략 컨설팅</option>
+                <option value="2">정보화 기획 및 시스템 설계</option>
+                <option value="3">디지털 전환 및 혁신 서비스</option>
+                <option value="4">비즈니스 프로세스 개선 컨설팅</option>
+                <option value="5">규제 준수 및 인증 지원</option>
+                <option value="6">프로젝트 관리 및 PMO 서비스</option>
+                <option value="7">데이터 분석 및 처리 서비스</option>
+                <option value="8">클라우드 데이터 관리</option>
+                <option value="9">백오피스 아웃소싱 (HR, 회계)</option>
+                <option value="10">고객 지원 및 콜센터 운영</option>
+                <option value="11">IT 아웃소싱 및 관리 서비스</option>
+                <option value="12">프로세스 자동화 (RPA) 서비스</option>
+                <option value="13">웹사이트 및 온라인 플랫폼 구축</option>
+                <option value="14">클라우드 인프라 및 서버 관리</option>
+                <option value="15">네트워크 설계 및 보안 관리</option>
+                <option value="16">콘텐츠 관리 시스템 (CMS)</option>
+                <option value="17">검색 최적화 및 디지털 마케팅</option>
+                <option value="18">소셜 미디어 및 커뮤니티 운영</option>
+                <option value="19">웹 및 모바일 앱 개발</option>
+                <option value="20">ERP, CRM 등 비즈니스 애플리케이션</option>
+                <option value="21">전자상거래 솔루션 개발</option>
+                <option value="22">고객 경험 및 사용자 인터페이스 설계</option>
+                <option value="23">
+                  교육용 소프트웨어 및 e-Learning 시스템
+                </option>
+                <option value="24">금융 및 핀테크 애플리케이션</option>
+                <option value="25">운영체제 개발 및 유지보수</option>
+                <option value="26">데이터베이스 관리 시스템 (DBMS)</option>
+                <option value="27">네트워크 운영 소프트웨어</option>
+                <option value="28">시스템 모니터링 및 관리 도구</option>
+                <option value="29">백업 및 복구 소프트웨어</option>
+                <option value="30">보안 소프트웨어 및 바이러스 백신</option>
+                <option value="31">게임 콘텐츠 개발 (모바일, PC, 콘솔)</option>
+                <option value="32">가상 현실 및 증강 현실 게임</option>
+                <option value="33">인터랙티브 미디어 및 메타버스 개발</option>
+                <option value="34">게임 디자인 및 그래픽 제작</option>
+                <option value="35">게임 운영 및 리워드 시스템</option>
+                <option value="36">시각 디자인 및 브랜드 구축</option>
+                <option value="37">3D 모델링 및 애니메이션</option>
+                <option value="38">영상 제작 및 편집</option>
+                <option value="39">그래픽 디자인 및 인쇄물 제작</option>
+                <option value="40">디지털 일러스트 및 캐릭터 디자인</option>
+                <option value="41">홍보 및 마케팅 콘텐츠 제작</option>
+                <option value="42">온라인 쇼핑몰 구축 및 운영</option>
+                <option value="43">디지털 카탈로그 제작 및 관리</option>
+                <option value="44">상품 촬영 및 콘텐츠 생성</option>
+                <option value="45">물류 및 재고 관리 솔루션</option>
+                <option value="46">고객 리뷰 및 피드백 관리</option>
+                <option value="47">전자상거래 마케팅 전략 수립</option>
+                <option value="48">디지털 광고 및 배너 제작</option>
+                <option value="49">브랜드 전략 및 시장 분석</option>
+                <option value="50">소셜 미디어 캠페인 관리</option>
+                <option value="51">콘텐츠 마케팅 및 블로그 운영</option>
+                <option value="52">인플루언서 및 바이럴 마케팅</option>
+                <option value="53">오프라인 및 이벤트 마케팅</option>
+                <option value="54">전문 문서 번역 및 현지화</option>
+                <option value="55">영상 자막 및 더빙 서비스</option>
+                <option value="56">비즈니스 및 법률 통역</option>
+                <option value="57">다국어 고객 지원 서비스</option>
+                <option value="58">의료 소프트웨어 개발 (EMR, EHR)</option>
+                <option value="59">원격 의료 및 진료 플랫폼</option>
+                <option value="60">병원 관리 시스템</option>
+                <option value="61">헬스케어 데이터 분석</option>
+                <option value="62">학습 관리 시스템 (LMS)</option>
+                <option value="63">온라인 강의 및 교육 콘텐츠 개발</option>
+                <option value="64">교육용 앱 및 소프트웨어</option>
+              </select>
+              <form action="/search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search Categories"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="text-box">
+          <p><span class="red-word">*</span>관심 산업분야</p>
+          <div class="select-box">
+            <div class="select-area">
+              <select name="level-category" class="level-category">
+                <option value="0">대분류</option>
+                <option value="1">IT 컨설팅과 기타 서비스</option>
+                <option value="2">데이터 처리와 아웃소싱 서비스</option>
+                <option value="3">인터넷 서비스와 인프라</option>
+                <option value="4">애플리케이션 소프트웨어</option>
+                <option value="5">시스템 소프트웨어</option>
+                <option value="6">게임 소프트웨어</option>
+                <option value="7">디자인 및 미디어</option>
+                <option value="8">카탈로그 소매 및 인터넷 소매</option>
+                <option value="9">마케팅 및 광고 서비스</option>
+                <option value="10">번역 및 통역 서비스</option>
+                <option value="11">헬스케어 및 의료 솔루션</option>
+                <option value="12">교육 및 학습 서비스</option>
+              </select>
+              <form action="/search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search Categories"
+                />
+              </form>
+            </div>
+          </div>
+          <div class="select-box">
+            <div class="select-area">
+              <select name="level-category" class="level-category">
+                <option value="0">중분류</option>
+                <option value="1">기술 자문 및 전략 컨설팅</option>
+                <option value="2">정보화 기획 및 시스템 설계</option>
+                <option value="3">디지털 전환 및 혁신 서비스</option>
+                <option value="4">비즈니스 프로세스 개선 컨설팅</option>
+                <option value="5">규제 준수 및 인증 지원</option>
+                <option value="6">프로젝트 관리 및 PMO 서비스</option>
+                <option value="7">데이터 분석 및 처리 서비스</option>
+                <option value="8">클라우드 데이터 관리</option>
+                <option value="9">백오피스 아웃소싱 (HR, 회계)</option>
+                <option value="10">고객 지원 및 콜센터 운영</option>
+                <option value="11">IT 아웃소싱 및 관리 서비스</option>
+                <option value="12">프로세스 자동화 (RPA) 서비스</option>
+                <option value="13">웹사이트 및 온라인 플랫폼 구축</option>
+                <option value="14">클라우드 인프라 및 서버 관리</option>
+                <option value="15">네트워크 설계 및 보안 관리</option>
+                <option value="16">콘텐츠 관리 시스템 (CMS)</option>
+                <option value="17">검색 최적화 및 디지털 마케팅</option>
+                <option value="18">소셜 미디어 및 커뮤니티 운영</option>
+                <option value="19">웹 및 모바일 앱 개발</option>
+                <option value="20">ERP, CRM 등 비즈니스 애플리케이션</option>
+                <option value="21">전자상거래 솔루션 개발</option>
+                <option value="22">고객 경험 및 사용자 인터페이스 설계</option>
+                <option value="23">
+                  교육용 소프트웨어 및 e-Learning 시스템
+                </option>
+                <option value="24">금융 및 핀테크 애플리케이션</option>
+                <option value="25">운영체제 개발 및 유지보수</option>
+                <option value="26">데이터베이스 관리 시스템 (DBMS)</option>
+                <option value="27">네트워크 운영 소프트웨어</option>
+                <option value="28">시스템 모니터링 및 관리 도구</option>
+                <option value="29">백업 및 복구 소프트웨어</option>
+                <option value="30">보안 소프트웨어 및 바이러스 백신</option>
+                <option value="31">게임 콘텐츠 개발 (모바일, PC, 콘솔)</option>
+                <option value="32">가상 현실 및 증강 현실 게임</option>
+                <option value="33">인터랙티브 미디어 및 메타버스 개발</option>
+                <option value="34">게임 디자인 및 그래픽 제작</option>
+                <option value="35">게임 운영 및 리워드 시스템</option>
+                <option value="36">시각 디자인 및 브랜드 구축</option>
+                <option value="37">3D 모델링 및 애니메이션</option>
+                <option value="38">영상 제작 및 편집</option>
+                <option value="39">그래픽 디자인 및 인쇄물 제작</option>
+                <option value="40">디지털 일러스트 및 캐릭터 디자인</option>
+                <option value="41">홍보 및 마케팅 콘텐츠 제작</option>
+                <option value="42">온라인 쇼핑몰 구축 및 운영</option>
+                <option value="43">디지털 카탈로그 제작 및 관리</option>
+                <option value="44">상품 촬영 및 콘텐츠 생성</option>
+                <option value="45">물류 및 재고 관리 솔루션</option>
+                <option value="46">고객 리뷰 및 피드백 관리</option>
+                <option value="47">전자상거래 마케팅 전략 수립</option>
+                <option value="48">디지털 광고 및 배너 제작</option>
+                <option value="49">브랜드 전략 및 시장 분석</option>
+                <option value="50">소셜 미디어 캠페인 관리</option>
+                <option value="51">콘텐츠 마케팅 및 블로그 운영</option>
+                <option value="52">인플루언서 및 바이럴 마케팅</option>
+                <option value="53">오프라인 및 이벤트 마케팅</option>
+                <option value="54">전문 문서 번역 및 현지화</option>
+                <option value="55">영상 자막 및 더빙 서비스</option>
+                <option value="56">비즈니스 및 법률 통역</option>
+                <option value="57">다국어 고객 지원 서비스</option>
+                <option value="58">의료 소프트웨어 개발 (EMR, EHR)</option>
+                <option value="59">원격 의료 및 진료 플랫폼</option>
+                <option value="60">병원 관리 시스템</option>
+                <option value="61">헬스케어 데이터 분석</option>
+                <option value="62">학습 관리 시스템 (LMS)</option>
+                <option value="63">온라인 강의 및 교육 콘텐츠 개발</option>
+                <option value="64">교육용 앱 및 소프트웨어</option>
+              </select>
+              <form action="/search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search Categories"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="check_box">
+          <p>이용약관</p>
+          <div>
+            <input type="checkbox" />
+            <p>만 14세 이상입니다.</p>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <p>서비스 이용약관에 동의합니다.</p>
+          </div>
+          <div>
+            <input type="checkbox" />
+            <p>개인정보 수집 및 이용에 동의합니다.</p>
+          </div>
+        </div>
+        <button class="signupbtn">가입하기</button>
+      </div>
+    </div>
+  </body>
+</html>
