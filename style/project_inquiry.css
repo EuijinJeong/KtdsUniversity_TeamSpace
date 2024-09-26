@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.project-inquiry-page {
+  display: flex;
+  justify-content: center;
+}
+
+.project-inquiry-area {
+  width: 60%;
+}
