@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -147,7 +152,7 @@ body {
 
 .important-message {
   width: fit-content;
-  margin-left: 50rem;
+  /* margin-left: 50rem; */
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: normal;
@@ -155,6 +160,7 @@ body {
   color: #835101;
   border-radius: 0.2rem;
   background-color: #f8dd4e;
+  float: right;
 }
 
 .btn-area {
