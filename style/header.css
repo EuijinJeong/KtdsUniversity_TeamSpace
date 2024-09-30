@@ -12,7 +12,7 @@
   justify-content: space-between;
   width: 100%; /* 화면 전체 너비 사용 */
   margin: 0 auto;
-  padding: 1rem 10%; /* 좌우 padding을 통해 중앙 정렬 */
+  padding: 0.5rem 10%; /* 좌우 padding을 통해 중앙 정렬 */
   background-color: white; /* 배경색 추가 */
   z-index: 100; /* 다른 요소보다 위에 위치 */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 상단 그림자 추가 */
@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   gap: 3rem;
-  padding-right: 16rem;
+  padding-right: 8rem;
 }
 
 .header-menu a {

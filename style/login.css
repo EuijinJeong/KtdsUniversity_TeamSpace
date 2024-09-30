@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 input {
   background-color: white;
@@ -52,8 +53,18 @@ button:hover {
   color: white;
 }
 .account_menu {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   list-style: none;
   gap: 5px;
+  list-style: none;
+  padding: 1rem;
+}
+.sin-box {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
 }
