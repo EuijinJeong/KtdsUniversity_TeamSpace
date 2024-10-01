@@ -231,6 +231,20 @@ main {
   margin-top: 1rem;
 }
 
+.map {
+  display: flex;
+}
+
+.map-image {
+  width: 40%;
+  background-color: white;
+}
+
+.map-detail {
+  width: 20%;
+  background-color: white;
+}
+
 .review-title {
   display: flex;
   justify-content: space-between;
