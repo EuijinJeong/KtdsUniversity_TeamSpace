@@ -283,13 +283,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-@media (max-width: 1600px) {
-  .project-head-front {
-    width: 60%;
-  }
-}
-
-@media (max-width: 1300px) {
+@media (max-width: 1700px) {
   .project-head-front {
     width: 60%;
   }
