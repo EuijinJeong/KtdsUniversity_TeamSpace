@@ -67,7 +67,8 @@
   display: flex;
   border-radius: 1rem;
   width: 70%;
-  background-color: rgb(240, 240, 240);
+  /* background-color: rgb(240, 240, 240); */
+  background-color: #fbf8ff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
 }
@@ -91,6 +92,12 @@
   position: relative;
   width: 95%;
   justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-button a {
+  text-decoration: none;
+  color: black;
 }
 
 .button-box {
@@ -98,11 +105,14 @@
 }
 
 .edit-button {
-  background-color: blue;
+  /* background-color: #b18ee8; */
+  background-color: #6041a1;
   border-radius: 1rem;
   color: white;
   font-weight: bold;
   width: 100%;
+  border: none;
+  padding: 1rem;
 }
 
 main {
@@ -256,12 +266,13 @@ img {
 }
 
 .report {
-  background-color: red;
+  background-color: rgb(217, 3, 3);
   color: white;
   font-weight: bold;
   border-radius: 1rem;
   width: 100%;
   height: 100%;
+  border: none;
 }
 
 .more-button {
