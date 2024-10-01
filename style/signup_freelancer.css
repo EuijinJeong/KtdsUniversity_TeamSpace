@@ -15,6 +15,12 @@ input {
   height: 5rem;
   background-color: #4785ee;
 }
+.signup-title {
+  font-size: 2rem;
+  font-weight: bold;
+  /* margin-bottom: 3rem; */
+  padding-bottom: 2rem;
+}
 .signupbox {
   border: 1px solid #ccc;
   border-radius: 3rem;
@@ -67,7 +73,7 @@ p {
 .check_box {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   border-radius: 1rem;
 }
 .check_box > div {
@@ -76,10 +82,11 @@ p {
 .signupbtn {
   margin-top: 1rem;
   width: 100%;
-  padding: 10px;
+  padding: 0.8rem;
   background-color: #4758ee;
   border-radius: 0.5rem;
   color: white;
+  border: none;
 }
 
 .level-category {

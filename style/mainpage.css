@@ -8,11 +8,22 @@ body {
 }
 
 .header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding-top: 1rem;
+  width: 80%;
 }
 
 .header-btn {
@@ -21,9 +32,9 @@ body {
   align-items: center;
 }
 
-.border-line {
+/* .border-line {
   border-top: 2px solid rgb(206, 206, 206);
-}
+} */
 
 .login {
   background-color: #4758ee;
